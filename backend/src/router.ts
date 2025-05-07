@@ -14,6 +14,7 @@ router.get('/', (req: Request, res: Response) => {
     page,
     total: visibleTodos.length,
     todos: paginated,
+    pageSize,
   });
 });
 
